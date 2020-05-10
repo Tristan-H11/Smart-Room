@@ -4,7 +4,7 @@
     {
         private static string Temperature = "0";
         private static int id;
-        private const string id_zuhause = "2864058";
+        private const string id_zuhause = "secret";
         private static string Gewitter = $"Aktuell gewittert es bei {Temperature} Grad Celsius";
         private static string Nieseln = $"Aktuell nieselt es bei {Temperature} Grad Celsius";
         private static string Regen = $"Aktuell regnet es bei {Temperature} Grad Celsius";
