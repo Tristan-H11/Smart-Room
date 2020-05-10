@@ -9,7 +9,7 @@ namespace Handler
          * Abruf der Wetterdaten *
          *************************/
 
-        private const string APIKEY = "c38a9a1f1bb4ab2e005f1278ee005edd"; //OpenWeatherMap API Key
+        private const string APIKEY = "secret"; //OpenWeatherMap API Key
         private string CurrentURL; //URL um später XML abzurufen
         private XmlDocument xmlDocument;
         public WeatherAPI(string city) //Konstruktor setzt die Stadt für die URL
